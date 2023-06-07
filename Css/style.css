@@ -1,5 +1,86 @@
+
+:root {
+    --main-bg-color: #24416f;
+    --color-font-header: #24416f;
+    --color-font-main: #24416f;
+    --color-font-footer: #ffffff;
+    --footer-bg-color: #60C5F3;
+    --div-bg-color: #e2e1e1;
+  
+  }
+
 * {
     padding: 0;
     margin: 0;
-    font-family: "Comic Sans MS", "Helvetica Neue";
+    font-family: "Comic Sans MS";  
+}
+
+header {    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--color-font-header);
+    height: 25vh;
+    width: auto;
+    
+}
+h1 {
+    position: absolute;
+
+}
+
+main {
+    background-color: var(--main-bg-color);
+    width:auto;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.buttons {
+    height: 20vh;
+    width: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#favorite{
+    height: 50px;
+    width: 60px;
+}
+
+#next{
+    height: 50px;
+    width: 60px;
+}
+
+.titlediv{
+    background-color: var(--div-bg-color);
+    color: var(--color-font-main);
+    height: 6vh;
+    width: 30vh;
+    border-radius: 2vh;
+    text-align: center;
+    
+}
+
+img{
+    position: absolute;
+    left: 0;
+    height: 25vh;
+    width: 25vh;
+}
+
+h6 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+}
+footer {
+    color: var(--color-font-footer);
+    background-color: var(--footer-bg-color);
+    height: 15vh;
+    width: auto;    
 }
