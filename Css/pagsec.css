@@ -1,4 +1,3 @@
-
 :root {
     --main-bg-color: #24416f;
     --color-font-header: #24416f;
@@ -39,51 +38,28 @@ main {
     align-items: center;   
 }
 
-.buttons {
-    height: 20vh;
-    width: 30vh;
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-#favorite{
-    height: 50px;
-    width: 60px;
-    border-radius: 2vh;
-}
-
-#next{
-    height: 50px;
-    width: 60px;
-    border-radius: 2vh;
-}
-
-.titlediv{
-    background-color: var(--div-bg-color);
-    color: var(--color-font-main);
-    height: 6vh;
-    width: 30vh;
-    border-radius: 2vh;
-    text-align: center;
-    
-}
-
-img{
+.logo{
     position: absolute;
     left: 0;
     height: 25vh;
     width: 25vh;
 }
 
-h6 {
+.star {
+    position: absolute;
+    left: 0;
+    height: 5vh;
+    width: 5vh;
     display: flex;
-    justify-content: center;
-    padding-top: 10vh;
 }
 footer {
     color: var(--color-font-footer);
     background-color: var(--footer-bg-color);
     height: 15vh;
     width: auto;    
+}
+h6 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
 }
