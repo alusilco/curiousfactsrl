@@ -54,7 +54,7 @@ main {
 
 .buttons {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     padding: 0.5vh;
@@ -108,7 +108,7 @@ img{
     width: 25vh;
 }
 
-h6 {
+p {
     display: flex;
     justify-content: center;
     height: 100%;
