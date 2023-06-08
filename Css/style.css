@@ -90,7 +90,15 @@ main {
     width: 60vh;
     border-radius: 2vh;
     text-align: center;
-    
+        
+}
+
+h2{
+    padding: 1vh;
+}
+
+#data {
+    color: var(--color-font-header);
 }
 
 img{
@@ -112,5 +120,7 @@ footer {
     background-color: var(--footer-bg-color);
     height: auto;
     width: auto; 
-    padding: 1vh;   
+    padding: 1vh;
+    height: 5.5vh;
+    width: auto;
 }
