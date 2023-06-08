@@ -47,6 +47,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: auto;
     padding: 10px 15px;
+    color: var(--color-font-footer);
 }
 
 .logo{
