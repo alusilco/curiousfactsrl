@@ -13,6 +13,8 @@
     padding: 0;
     margin: 0;
     font-family: "Comic Sans MS";  
+    font-weight: normal;
+    
 }
 
 header {    
@@ -26,44 +28,66 @@ header {
 }
 h1 {
     position: absolute;
-
+    font-weight: normal;
 }
 
 main {
     background-color: var(--main-bg-color);
     width:auto;
-    height: 60vh;
+    height: 67.5vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;   
 }
 
+.tablecontent {
+    display: flex;
+    background-color: var(--div-bg-color);
+    width: 70%;
+    height: 50%;
+    border-radius: 2vh;
+    text-align: center;
+    justify-content: center; 
+    align-items: center; 
+  }
+
 .buttons {
-    height: 20vh;
-    width: 30vh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0.5vh;
     
 }
 
+#favorite, #next {
+    border-radius: 2vh;
+    color: var(--color-font-header);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 10vh;
+    
+    
+  }
 #favorite{
-    height: 50px;
-    width: 60px;
-    border-radius: 2vh;
-}
-
-#next{
-    height: 50px;
-    width: 60px;
-    border-radius: 2vh;
+    background-image: url("/Images/Star.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 10px 15px;
+    
 }
 
 .titlediv{
     background-color: var(--div-bg-color);
     color: var(--color-font-main);
-    height: 6vh;
-    width: 30vh;
+    height: 8vh;
+    width: 60vh;
     border-radius: 2vh;
     text-align: center;
     
@@ -79,11 +103,14 @@ img{
 h6 {
     display: flex;
     justify-content: center;
-    padding-top: 10vh;
+    height: 100%;
+    align-items: center;
+
 }
 footer {
     color: var(--color-font-footer);
     background-color: var(--footer-bg-color);
-    height: 15vh;
-    width: auto;    
+    height: auto;
+    width: auto; 
+    padding: 1vh;   
 }

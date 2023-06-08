@@ -1,5 +1,4 @@
 
-
 fetch('GET /api/v2/facts/random')
   .then(response => response.json())
   .then(data => {

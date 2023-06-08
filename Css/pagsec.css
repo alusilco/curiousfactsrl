@@ -12,6 +12,8 @@
     padding: 0;
     margin: 0;
     font-family: "Comic Sans MS";  
+    font-weight: normal;
+    font-size: 40px;
 }
 
 header {    
@@ -26,16 +28,24 @@ header {
 h1 {
     position: absolute;
 
-}
-
+    }
 main {
     background-color: var(--main-bg-color);
-    width:auto;
-    height: 60vh;
+    width:v auto;
+    height: 69.9vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;   
+}
+
+h2 {
+    position: absolute;
+    background-image: url("/Images/Star.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 10px 15px;
 }
 
 .logo{
@@ -52,14 +62,18 @@ main {
     width: 5vh;
     display: flex;
 }
-footer {
-    color: var(--color-font-footer);
-    background-color: var(--footer-bg-color);
-    height: 15vh;
-    width: auto;    
-}
+
 h6 {
     display: flex;
     justify-content: center;
-    padding-top: 10vh;
+    height: 100%;
+    align-items: center;
 }
+footer {
+    color: var(--color-font-footer);
+    background-color: var(--footer-bg-color);
+    height: auto;
+    width: auto; 
+    padding: 1vh;   
+}
+
