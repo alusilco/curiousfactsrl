@@ -10,8 +10,11 @@
 
 <body>
     <header>
-        <img src="/Images/logoTechDuo.png" alt="logoTechDuo">
+        <img src="/Images/logoTechDuo.png" alt="logo TechDuo" id="logo">
         <h1>CURIOUS FACTS</h1>
+        <a href="./pagsec.html" id="myAnchor"> 
+        <img src="/Images/Star.png" alt="Star way to next page" id="starSecondPage">
+        </a>
     </header>
 
     <main>
@@ -32,12 +35,13 @@
 
         </div>
             <div class="buttons">
-            <button id="favorite" onclick="showFavorites()"> Favorite</button>
+            <button id="favorite" onclick="saveFavorites()">Favorite</button>
             <button id="next" onclick="fetchData()">Next</button>
         </div>
 
-        <script src="../javascript/randomFacts.js"></script>
-        <script src="../javascript/buttons.js"></script>        
+        
+        <script src="../javascript/buttons.js"></script>  
+        <script src="./pagsec.html"></script>
     </main>
 
 <footer>

@@ -19,16 +19,27 @@
 
 header {    
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
+    align-items: center;
+    align-self: flex-end;
     color: var(--color-font-header);
     height: 25vh;
     width: auto;
-    
 }
+
 h1 {
     position: absolute;
     font-weight: normal;
+}
+
+a, #myAnchor{
+    margin-left: 175vh;
+}
+
+img, #starSecondPage {
+    height: 35px;
+    width: 35px;
+
 }
 
 main {
@@ -71,29 +82,26 @@ main {
     padding: 10px 15px;
     cursor: pointer;
     margin-right: 10vh;
-    
-    
-  }
-#favorite{
+}
+
+#favorite {
     background-image: url("/Images/Star.png");
     background-position: left center;
     background-repeat: no-repeat;
     background-size: auto;
-    padding: 10px 15px;
-    
+    padding: 10px 15px;  
 }
 
-.titlediv{
+.titlediv {
     background-color: var(--div-bg-color);
     color: var(--color-font-main);
     height: 8vh;
     width: 60vh;
     border-radius: 2vh;
-    text-align: center;
-        
+    text-align: center;       
 }
 
-h2{
+h2 {
     padding: 1vh;
 }
 
@@ -101,7 +109,7 @@ h2{
     color: var(--color-font-header);
 }
 
-img{
+#logo {
     position: absolute;
     left: 0;
     height: 25vh;
@@ -113,8 +121,8 @@ p {
     justify-content: center;
     height: 100%;
     align-items: center;
-
 }
+
 footer {
     color: var(--color-font-footer);
     background-color: var(--footer-bg-color);

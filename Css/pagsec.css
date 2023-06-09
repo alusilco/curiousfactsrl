@@ -25,6 +25,7 @@ header {
     width: auto;
     
 }
+
 h1 {
     position: absolute;
     font-weight: normal;
@@ -37,11 +38,18 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;   
+    align-items: center;
+}
+
+.listContent {
+    margin-top: 50px;
+    max-height: 350px; 
+    overflow-y: auto;
 }
 
 h2 {
     position: absolute;
+    top: 25vh;
     background-image: url("/Images/Star.png");
     background-position: left center;
     background-repeat: no-repeat;
@@ -72,6 +80,7 @@ p {
     align-items: center;
 
 }
+
 footer {
     color: var(--color-font-footer);
     background-color: var(--footer-bg-color);
