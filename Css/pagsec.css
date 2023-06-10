@@ -23,13 +23,26 @@ header {
     color: var(--color-font-header);
     height: 25vh;
     width: auto;
-    
+
 }
+
+@media only screen and (max-width: 640px) {
+    header {
+    font-size: 20px;
+    
+    }
+  }
 
 h1 {
     position: absolute;
     font-weight: normal;
 }
+
+@media only screen and (max-width: 640px) {
+    h1 {
+    font-size: 25px;
+    }
+  }
 
 main {
     background-color: var(--main-bg-color);
@@ -65,6 +78,17 @@ h2 {
     width: 25vh;
 }
 
+@media only screen and (max-width: 640px) {
+    .logo {
+    position: absolute;
+    left: 0;
+    bottom: 82vh;
+    height: 10vh;
+    width: 10vh;
+    
+    }
+  }
+
 .star {
     position: absolute;
     left: 0;
@@ -81,6 +105,14 @@ p {
 
 }
 
+@media only screen and (max-width: 640px) {
+    p {
+        font-size: 15px;
+        text-align: center;
+    }
+  }
+
+
 footer {
     color: var(--color-font-footer);
     background-color: var(--footer-bg-color);
@@ -90,3 +122,4 @@ footer {
     height: 5.5vh;
     width: auto;
 }
+
