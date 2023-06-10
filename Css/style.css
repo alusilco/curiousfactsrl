@@ -27,14 +27,34 @@ header {
     width: auto;
 }
 
+@media only screen and (max-width: 640px) {
+    header {
+      height: 25vh;
+      width: auto;
+    }
+  }
+
 h1 {
     position: absolute;
     font-weight: normal;
 }
 
+@media only screen and (max-width: 640px) {
+    h1 {
+        font-size: 25px;
+        
+    }
+  }
+
 a, #myAnchor{
     margin-left: 175vh;
 }
+
+@media only screen and (max-width: 640px) {
+    #myAnchor {
+    margin-left: 45vh;    
+    }
+  }
 
 img, #starSecondPage {
     height: 35px;
@@ -63,13 +83,29 @@ main {
     align-items: center; 
   }
 
+  @media only screen and (max-width: 640px) {
+    .tablecontent  {
+    width: 50vh;
+    height: 35vh;
+    }
+  }
+
 .buttons {
     display: flex;
     justify-content: end;
     margin-left: 10vh;
-    
-    
 }
+
+@media only screen and (max-width: 640px) {
+    .buttons  {
+    margin-left: -5vh;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    padding: -10vh;
+
+    }
+  }
 
 #favorite, #next {
     border-radius: 2vh;
@@ -99,6 +135,12 @@ main {
     text-align: center;       
 }
 
+@media only screen and (max-width: 640px) {
+    .titlediv {
+    width: 35vh;
+    }
+  }
+
 h2 {
     padding: 1vh;
 }
@@ -113,6 +155,14 @@ h2 {
     height: 25vh;
     width: 25vh;
 }
+
+@media only screen and (max-width: 640px) {
+    #logo {
+        height: 10vh;
+        width: 10vh;
+        
+    }
+  }
 
 p {
     display: flex;
