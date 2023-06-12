@@ -72,8 +72,9 @@ h2 {
 }
 
 .logo{
-    margin-right: 183vh;
+    position: absolute;
     left: 0;
+    top: 0;
     height: 25vh;
     width: 25vh;
 }
