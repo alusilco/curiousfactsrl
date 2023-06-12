@@ -1,9 +1,5 @@
-
-function suma(a, b) {
-  return a + b;
-}
-module.exports = suma;
-
+const h2 = document.querySelector ('h2')
+console.log (h2)
 
 let addFavorites = [];
 
@@ -23,7 +19,6 @@ let addFavorites = [];
     }
 
     
-      
     
 // Llamar a fetchData al cargar la ventana
 window.addEventListener("load", fetchData);
