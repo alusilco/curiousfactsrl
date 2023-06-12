@@ -1,0 +1,22 @@
+{
+  "name": "techduo",
+  "version": "1.0.0",
+  "description": "Proyecto pair programming",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/alusilco/techduo"
+  },
+  "author": "Rafaela Silveira y Lucía Silva Córdoba",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "jsdom": "^22.1.0"
+  }
+}

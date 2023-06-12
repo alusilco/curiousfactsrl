@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+const h2 = document.querySelector ('h2')
+console.log (h2)
+
+=======
+>>>>>>> 03d5a32972ad302420312fefbd8c9201e07223a9
 let addFavorites = [];
 
 function fetchData() {
@@ -17,6 +23,11 @@ function saveFavorites() {
   localStorage.setItem('addFavorites', JSON.stringify(addFavorites));
 }
 
+<<<<<<< HEAD
+    
+    
+=======
+>>>>>>> 03d5a32972ad302420312fefbd8c9201e07223a9
 // Llamar a fetchData al cargar la ventana
 window.addEventListener("load", fetchData);
 
