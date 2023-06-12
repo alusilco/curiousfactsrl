@@ -14,29 +14,32 @@
     margin: 0;
     font-family: "Comic Sans MS";  
     font-weight: normal;
+    overflow: hidden;
     
 }
 
 header {    
-    display: flex;
     justify-content: space-evenly;
     align-items: center;
     align-self: flex-end;
     color: var(--color-font-header);
     height: 25vh;
     width: auto;
+    display: flex;
 }
 
 @media only screen and (max-width: 640px) {
     header {
       height: 25vh;
       width: auto;
+      max-width: 320px;
+      position: relative;
     }
   }
 
 h1 {
-    position: absolute;
     font-weight: normal;
+    text-align: center;
 }
 
 @media only screen and (max-width: 640px) {
@@ -48,6 +51,7 @@ h1 {
 
 a, #myAnchor{
     margin-left: 175vh;
+    align-items: center;
 }
 
 @media only screen and (max-width: 640px) {
@@ -152,15 +156,22 @@ h2 {
 #logo {
     position: absolute;
     left: 0;
-    height: 25vh;
-    width: 25vh;
+    height: 18vh;
+    width: 18vh;
+    display: flex;
+
 }
 
 @media only screen and (max-width: 640px) {
     #logo {
         height: 10vh;
         width: 10vh;
-        
+        height: 8vh;
+        width: 8vh;
+        position: absolute;
+        top: 50%;
+        left: 3%;
+        transform: translateY(-50%);
     }
   }
 
