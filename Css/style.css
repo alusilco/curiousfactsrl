@@ -6,6 +6,7 @@
     --color-font-footer: #ffffff;
     --footer-bg-color: #60C5F3;
     --div-bg-color: #e2e1e1;
+    overflow: hidden;
   
   }
 
@@ -32,21 +33,18 @@ header {
     header {
       height: 25vh;
       width: auto;
-      max-width: 320px;
-      position: relative;
     }
   }
 
 h1 {
     font-weight: normal;
-    display: flex;
     position: absolute;
 }
 
 @media only screen and (max-width: 640px) {
     h1 {
-        font-size: 25px;
-        
+        font-size: 20px;
+        left: 17vh;
     }
   }
 
@@ -68,6 +66,12 @@ img, #starSecondPage {
     
 }
 
+@media only screen and (max-width: 640px) {
+    img, #starSecondPage {
+    width: 5vh;
+    height: 5vh;;
+    }
+  }
 main {
     background-color: var(--main-bg-color);
     width:auto;
@@ -104,12 +108,8 @@ main {
 
 @media only screen and (max-width: 640px) {
     .buttons  {
-    margin-left: -5vh;
-    display: flex;
-    align-items: end;
-    justify-content: right;
-    padding: -10vh;
-
+    transform: translate(0,5%, -200%);
+    
     }
   }
 
@@ -158,6 +158,7 @@ h2 {
 #logo {
     position: absolute;
     left: 0;
+    top: 0;
     height: 25vh;
     width: 25vh;
 
@@ -165,12 +166,11 @@ h2 {
 
 @media only screen and (max-width: 640px) {
     #logo {
-        height: 20vh;
-        width: 20vh;
-        position: absolute;
-        top: 50%;
-        left: 3%;
-        transform: translateY(-50%);
+    left: 0;
+    top: 6vh;
+    height: 15vh;
+    width: 15vh;
+        
     }
   }
 
@@ -180,6 +180,13 @@ p {
     height: 100%;
     align-items: center;
 }
+
+@media only screen and (max-width: 640px) {
+    p {
+        font-size: 15px;
+        text-align: center;
+    }
+  }
 
 footer {
     color: var(--color-font-footer);

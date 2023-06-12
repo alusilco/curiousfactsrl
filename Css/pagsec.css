@@ -5,6 +5,7 @@
     --color-font-footer: #ffffff;
     --footer-bg-color: #60C5F3;
     --div-bg-color: #e2e1e1;
+    overflow: hidden;
   
   }
 
@@ -40,7 +41,8 @@ h1 {
 
 @media only screen and (max-width: 640px) {
     h1 {
-    font-size: 25px;
+    font-size: 20px;
+    left: 17vh;
     }
   }
 
@@ -81,11 +83,10 @@ h2 {
 
 @media only screen and (max-width: 640px) {
     .logo {
-    position: absolute;
     left: 0;
-    bottom: 82vh;
-    height: 10vh;
-    width: 10vh;
+    top: 6vh;
+    height: 15vh;
+    width: 15vh;
     
     }
   }
