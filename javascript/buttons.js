@@ -10,11 +10,12 @@ let addFavorites = [];
         .catch(error => console.log(error));
     }
     function saveFavorites() {
-      localStorage.setItem('addFavorites', JSON.stringify(addFavorites));
+      localStorage.setItem('favorites', JSON.stringify(favorites));
     }
-// Llamar a fetchData al cargar la ventana
-window.addEventListener("load", fetchData);
-
+    
+    // Llamar a fetchData al cargar la ventana
+    window.addEventListener("load", fetchData);
+    
 // Agregar evento de clic a los elementos de favoritos
 const dataElement = document.getElementById('data');
 dataElement.addEventListener('click', function() {

@@ -1,6 +1,6 @@
 import {JSDOM} from 'jsdom'
 
-global.document = new JSDOM('<!doctype html><html><body></body></html>').window.document;
+global.document = new JSDOM('./index.html').window.document;
 
 const {
     showFavorites

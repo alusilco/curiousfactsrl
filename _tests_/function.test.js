@@ -2,7 +2,6 @@ import { describe, it, beforeEach, afterEach } from 'node:test';
 import { JSDOM } from 'jsdom';
 import { strict as assert } from 'assert';
 
-// Importa la función fetchData
 import { fetchData } from '../javascript/buttons';
 
 describe('fetchData', () => {
